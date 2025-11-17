@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+  <pattern>HI</pattern>
+  <template>Halo! Ada yang mau kamu tanyakan tentang penelitian kami?</template>
+</category>
+
+<category>
+  <pattern>HALO</pattern>
+  <template>Halo! Saya chatbot penjelas penelitian tentang ELECTRA dan klasifikasi ujaran kebencian. Silakan tanya apa saja.</template>
+</category>
+
+<category>
+  <pattern>HAI</pattern>
+  <template>Hai! Mau tanya tentang penelitian kami?</template>
+</category>
+
+<category>
+  <pattern>TUJUAN PENELITIAN*</pattern>
+  <template>Tujuan penelitian ini adalah menguji efektivitas model ELECTRA untuk klasifikasi multi-label ujaran kebencian pada tweet berbahasa Indonesia.</template>
+</category>
+
+<category>
+  <pattern>APA TUJUAN PENELITIAN*</pattern>
+  <template>Tujuan penelitian ini adalah menguji efektivitas ELECTRA dalam mendeteksi ujaran kebencian secara multi-label.</template>
+</category>
+
+<category>
+  <pattern>APA ITU ELECTRA</pattern>
+  <template>ELECTRA adalah model Transformer efisien yang dilatih dengan metode Replaced Token Detection sehingga lebih cepat dan akurat dibanding BERT.</template>
+</category>
+
+<category>
+  <pattern>JELASIN ELECTRA*</pattern>
+  <template>ELECTRA bekerja dengan mendeteksi token yang diganti oleh generator, sehingga belajar dari seluruh token input. Lebih cepat daripada BERT.</template>
+</category>
+
+<category>
+  <pattern>MENGAPA PAKAI ELECTRA</pattern>
+  <template>ELECTRA dipilih karena efisien, cepat, dan memiliki representasi bahasa yang kuat.</template>
+</category>
+
+<category>
+  <pattern>ALASAN PAKAI ELECTRA*</pattern>
+  <template>ELECTRA unggul dalam efisiensi komputasi dan akurasi, sehingga cocok untuk data ujaran kebencian Indonesia.</template>
+</category>
+
+<category>
+  <pattern>ELECTRA ITU APA*</pattern>
+  <template>ELECTRA adalah model Transformer yang dilatih dengan Replaced Token Detection.</template>
+</category>
+
+<category>
+  <pattern>DATASET APA*</pattern>
+  <template>Dataset berupa tweet berbahasa Indonesia untuk deteksi ujaran kebencian dan bahasa kasar dalam format multi-label.</template>
+</category>
+
+<category>
+  <pattern>APA SAJA PREPROCESSING*</pattern>
+  <template>Preprocessing mencakup pembersihan teks, stopword removal, normalisasi slang, dan tokenisasi dengan tokenizer ELECTRA.</template>
+</category>
+
+<category>
+  <pattern>METRIK EVALUASI APA YANG DIGUNAKAN</pattern>
+  <template>Metrik yang digunakan adalah precision, recall, f1-score, dan support.</template>
+</category>
+
+<category>
+  <pattern>APA KONTRIBUSI PENELITIAN*</pattern>
+  <template>Penelitian ini menerapkan ELECTRA untuk klasifikasi multi-label ujaran kebencian bahasa Indonesia.</template>
+</category>
+
+<category>
+  <pattern>*</pattern>
+  <template>Maaf, aku belum punya jawaban untuk itu. Coba tanya hal lain tentang penelitian ini ya!</template>
+</category>
+
+</aiml>
